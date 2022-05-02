@@ -1,0 +1,15 @@
+GET http://localhost:8088/users
+
+### GET request
+GET http://localhost:8088/users/100
+
+### POST
+POST http://localhost:8088/users
+Content-Type: application/json
+
+{
+  "name": "하이"
+}
+
+### DElETE
+DELETE  http://localhost:8088/users/100
