@@ -1,7 +1,7 @@
 GET http://localhost:8088/users
 
 ### GET request
-GET http://localhost:8088/users/100
+GET http://localhost:8088/users/1
 
 ### POST
 POST http://localhost:8088/users
@@ -13,3 +13,10 @@ Content-Type: application/json
 
 ### DElETE
 DELETE  http://localhost:8088/users/100
+
+### GET
+GET http://localhost:8088/hello-world-internationalized
+Accept-Language: kr
+
+### GET
+GET http://localhost:8088/admin/users/1

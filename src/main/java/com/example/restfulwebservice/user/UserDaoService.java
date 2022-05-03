@@ -14,9 +14,7 @@ public class UserDaoService {
     private static int usersCount = 3;
 
     static {
-        users.add(new User(1, "a", new Date()));
-        users.add(new User(2, "b", new Date()));
-        users.add(new User(3, "c", new Date()));
+        users.add(new User(1, "a", new Date(),"abc","abc"));
     }
 
     public List<User> findAll() {
