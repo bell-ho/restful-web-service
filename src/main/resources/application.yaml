@@ -4,9 +4,21 @@ server:
 spring:
   messages:
     basename: messages
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
 
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+
